@@ -17,6 +17,7 @@
 
 
         <TextView
+            android:id="@+id/title_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="12sp"
@@ -30,9 +31,11 @@
             android:layout_height="wrap_content">
 
             <CheckBox
+                android:id="@+id/first_check_box"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
             <TextView
+                android:id="@+id/first_check_box_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/poppins"
@@ -50,9 +53,11 @@
             android:layout_height="wrap_content">
 
             <CheckBox
+                android:id="@+id/second_check_box"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
             <TextView
+                android:id="@+id/second_check_box_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/poppins"
@@ -68,9 +73,11 @@
             android:layout_height="wrap_content">
 
             <CheckBox
+                android:id="@+id/third_check_box"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
             <TextView
+                android:id="@+id/third_check_box_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/poppins"
@@ -85,9 +92,11 @@
             android:layout_height="wrap_content">
 
             <CheckBox
+                android:id="@+id/four_check_box_"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
             <TextView
+                android:id="@+id/four_check_box_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/poppins"
@@ -102,9 +111,11 @@
             android:layout_height="wrap_content">
 
             <CheckBox
+                android:id="@+id/fife_check_box_"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
             <TextView
+                android:id="@+id/fife_check_box_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/poppins"
@@ -119,9 +130,11 @@
             android:layout_height="wrap_content">
 
             <CheckBox
+                android:id="@+id/sixth_check_box_"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
             <TextView
+                android:id="@+id/sixth_check_box_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/poppins"
@@ -144,5 +157,5 @@
             android:text="Last edited: 17.12.2021 18:06"
             android:layout_height="wrap_content"/>
 
-</LinearLayout>
+    </LinearLayout>
 </androidx.cardview.widget.CardView>
